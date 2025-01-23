@@ -10,6 +10,7 @@ from django.utils import timezone
 from datetime import datetime, timedelta
 import logging
 
+//update
 @login_required
 def list_doctors(request):
     doctors = Profile.objects.filter(account_user_type='doctor')
